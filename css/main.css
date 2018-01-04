@@ -1,0 +1,30 @@
+html{
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   background-color: whitesmoke;
+}
+
+h1 {
+    margin-left: 1.66%;
+    text-transform: uppercase;
+}
+hr {
+    width: 30%;
+    margin: 1.66%;
+}
+
+img {
+    width: 30%;
+    float: left; /* Removes the space betwen pictures*/
+    margin:  1.66%; /*each img is 10% for the value i give them with width*/ 
+    opacity: 0.8;
+    transition: 0.4s ease-in;
+}
+
+img:hover {
+    box-shadow: 0px 0px 5px 0px;
+    opacity: 6;
+
+}
+
